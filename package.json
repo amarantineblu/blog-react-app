@@ -1,5 +1,5 @@
 {
-  "name": "another-react-app",
+  "name": "blog-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,14 +8,15 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^11.10.0",
+    "imagesloaded": "^5.0.0",
+    "jquery": "^3.6.0",
+    "masonry-layout": "^4.2.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^7.6.3",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "cypress:open": "cypress open"
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

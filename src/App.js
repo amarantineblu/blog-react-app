@@ -5,13 +5,14 @@ import "./App.css";
 
 import DashboardRoutes from "./routes/DashboardRoutes";
 import GuestRoutes from "./routes/GuestRoutes";
+// import Home from "./pages/guest/Home";
 
 function App() {
-  return (
+  return(
     <Router>
       <Routes>
         {/* Public (guest) Routes */}
-        <Route path="/*" element={<GuestRoutes />} />
+          <Route path="/*" element={<GuestRoutes />}/>
 
         {/* Authenticated (dashboard) Routes */}
         <Route path="/dashboard/*" element={<DashboardRoutes />} />

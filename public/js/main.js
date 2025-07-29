@@ -678,9 +678,7 @@
     =            light gallery active            =
     =============================================*/
 
-  $(".popup-images").lightGallery();
 
-  $(".video-popup").lightGallery();
 
   /*===================================
         AOS Scroll Animation 

@@ -5,6 +5,8 @@ import "./App.css";
 
 import DashboardRoutes from "./routes/DashboardRoutes";
 import GuestRoutes from "./routes/GuestRoutes";
+import { AuthProvider } from "./AuthContext";
+import PrivateRoute from "./PrivateRoute";
 // import Home from "./pages/guest/Home";
 
 function App() {
@@ -15,7 +17,11 @@ function App() {
           <Route path="/*" element={<GuestRoutes />}/>
 
         {/* Authenticated (dashboard) Routes */}
-        <Route path="/dashboard/*" element={<DashboardRoutes />} />
+        <Route path="/dashboard/*" element={
+          <PrivateRoute>
+            <DashboardRoutes/>
+          </PrivateRoute>
+         } />
       </Routes>
     </Router>
   );

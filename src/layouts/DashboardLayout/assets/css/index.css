@@ -1,0 +1,19 @@
+@font-face(
+  font-family: 'SUSE'; 
+  {% comment %} font-style:'normal';  {% endcomment %}
+  src: url(../fonts/SUSE/SUSE-VariableFont_wght.ttf);
+);
+@font-face(
+  font-family: 'Poppins'; 
+  {% comment %} font-style:'normal'; {% endcomment %}
+  src:  url('/light/assets/fonts/Poppins/Poppins-Regular.ttf');
+);
+
+* {
+  font-family: 'Poppins' !important;
+}
+
+h2{
+  font-family: 'Poppins' !important;
+
+}

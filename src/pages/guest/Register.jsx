@@ -1,4 +1,10 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import { auth } from "../../firebase.js"; // adjust path as needed
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 const Register = () => {
   const [form, setForm] = useState({
@@ -8,6 +14,9 @@ const Register = () => {
     agree: false,
   });
 
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setForm((prev) => ({
@@ -15,10 +24,34 @@ const Register = () => {
       [name]: type === "checkbox" ? checked : value,
     }));
   }
-  const handleSubmit = (e) => {
+    const navigate = useNavigate(); // Hook for navigation
+
+  
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form Submitted:', form);
+    setError("");
+    setSuccess("");
+    if (!form.agree) {
+      setError("You must agree to the terms.");
+      return;
+    }
+    try {
+      await createUserWithEmailAndPassword(auth, form.email, form.password);
+      setSuccess("Registration successful!");
+      // Optionally, save username to Firestore here
+       const isAuthenticated = true;
+
+        if (isAuthenticated) {
+          navigate('/dashboard'); // Redirect to dashboard
+        } else {
+          alert('Invalid credentials');
+        }
+    } catch (err) {
+      setError(err.message);
+    }
+    console.log('this is the result:', setForm);
   };
+
   return (
     <>
       <div className="breadcrumb-area">
@@ -51,6 +84,16 @@ const Register = () => {
                       <h3 className="mb-2">Register</h3>
                       <h5>Become a member</h5>
                     </div>
+                    {error && (
+                      <div style={{ color: "red", marginBottom: "1rem" }}>
+                        {error}
+                      </div>
+                    )}
+                    {success && (
+                      <div style={{ color: "green", marginBottom: "1rem" }}>
+                        {success}
+                      </div>
+                    )}
                     <form onSubmit={handleSubmit}>
                       <input type="text" name="username" value={form.username} onChange={handleChange} placeholder="Username" />
                       <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email Address" />

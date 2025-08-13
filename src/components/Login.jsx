@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../firebase';
+import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 
 // import axios from 'axios';
@@ -26,15 +26,17 @@ const Login = ({onLogin}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, form.email, form.password);
+      // const userCredential =
+        await signInWithEmailAndPassword(auth, form.email, form.password);
       // onLogin(userCredential.user)
       // const token = res.data.token;
       // localStorage.setItem('token', token);
       // onLogi
         const isAuthenticated = true;
 
-        if (isAuthenticated) {
-          navigate('/dashboard'); // Redirect to dashboard
+      if (isAuthenticated) {
+          console.log('User Authenticated');
+          navigate('/dashboard/'); // Redirect to dashboard
         } else {
           alert('Invalid credentials');
         }

@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,53 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# 🛍️ E-Commerce Landing Page
+
+A responsive, modern e-commerce landing page built with **React.js**, **CSS**, and integrated with a mock REST API. This project demonstrates clean UI design, state management, responsive layouts, and component-based architecture suitable for a beginner-to-intermediate level front-end developer.
+
+---
+
+## 🔗 Live Demo
+
+[🌐 View Project](https://marcusdev.github.io/ecommerce-landing)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (Functional Components + Hooks)
+- **CSS** (Flexbox, Grid, Media Queries)
+- **JavaScript (ES6+)**
+- **Mock REST API** (JSONPlaceholder / Fake Store API)
+- **Git & GitHub** for version control
+
+---
+
+## 🎯 Features
+
+- ✅ Responsive layout (mobile, tablet, desktop)
+- ✅ Product catalog with images and pricing
+- ✅ Add to Cart functionality (local state)
+- ✅ Product detail view
+- ✅ Simple checkout simulation
+- ✅ Clean, reusable component structure
+- ✅ Accessibility-friendly (WCAG-compliant markup)
+
+---
+
+## 📁 Folder Structure
+
+```bash
+ecommerce-landing/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+└── README.md
+

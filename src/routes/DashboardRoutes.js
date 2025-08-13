@@ -1,24 +1,18 @@
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
-// import LoginPage from './LoginPage';
-import DashboardLayout from '../layouts/DashboardLayout/DashboardLayout.js'
+import { Routes, Route } from 'react-router-dom';
+import DashboardLayout from '../layouts/DashboardLayout/DashboardLayout';
 import Dashboard from '../pages/dashboard/Dashboard';
-
-// import ProtectedRoute from './ProtectedRoute';
-import PrivateRoute from '../PrivateRoute.js';
+import PrivateRoute from '../PrivateRoute';
 
 const DashboardRoutes = () => (
-  // <Routes>
-  //   {/* <Route path="/" element={<LoginPage />} /> */}
-  //   <Route path="/dashboard/*"  element={<PrivateRoute>  <Dashboard /> </PrivateRoute>}
-  //   />
-  // </Routes>
   <Routes>
+    {/* PrivateRoute handles auth */}
+    <Route element={<PrivateRoute />}>
+      {/* DashboardLayout wraps the protected dashboard page */}
       <Route element={<DashboardLayout />}>
-      <Route path="/dashboard/*" element={<PrivateRoute> <DashboardLayout /> </PrivateRoute>}>
-        <Route index element={<Dashboard/>} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Route>
-      </Route>
-    </Routes>
+    </Route>
+  </Routes>
 );
 
 export default DashboardRoutes;

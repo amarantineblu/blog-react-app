@@ -2,8 +2,14 @@ import React,{useEffect} from 'react';
 import { Helmet } from 'react-helmet';
 import { Outlet } from 'react-router-dom';
 
+// import "./assets/plugins/bootstrap/css/bootstrap.min.css";
+import "./assets/css/index.css";
+import "./assets/css/color_skins.css"
+
 
 const DashboardLayout = () => {
+    console.log("DashboardLayout rendering");
+
   useEffect(() => {
     const bodyElement = document.getElementById("bodyTag");
     bodyElement.classList.add('theme-purple');
@@ -294,7 +300,7 @@ const DashboardLayout = () => {
                                   <div className="progress-container progress-info">
                                       <span className="progress-badge">Server Load</span>
                                       <div className="progress">
-                                          <div className="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                                          <div className="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style={{ width: '86%'}}>
                                               <span className="progress-value">86%</span>
                                           </div>
                                       </div>
@@ -343,19 +349,19 @@ const DashboardLayout = () => {
                                       <li>
                                           <div>Honesty & Integrity</div>
                                           <div className="progress m-b-20">
-                                              <div className="progress-bar l-blue " role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%"> <span className="sr-only">62% Complete</span> </div>
+                                                  <div className="progress-bar l-blue " role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style={{ width: '89%'}}> <span className="sr-only">62% Complete</span> </div>
                                           </div>
                                       </li>
                                       <li>
                                           <div>Responsiveness</div>
                                           <div className="progress m-b-20">
-                                              <div className="progress-bar l-green " role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%"> <span className="sr-only">87% Complete</span> </div>
+                                                  <div className="progress-bar l-green " role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style={{ width: '56%' }}> <span className="sr-only">87% Complete</span> </div>
                                           </div>
                                       </li>
                                       <li>
                                           <div>Local Knowledge</div>
                                           <div className="progress m-b-20">
-                                              <div className="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span className="sr-only">32% Complete</span> </div>
+                                                  <div className="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style={{ width: '78%' }} > <span className="sr-only">32% Complete</span> </div>
                                           </div>
                                       </li>
                                   </ul>                        

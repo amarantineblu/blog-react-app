@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import GuestLayout from "../layouts/GuestLayout/GuestLayout";
 import Home from "../pages/guest/Home";
 import About from "../pages/guest/About";
-import Register from "../components/Register";
-import Login from "../components/Login";
+import Register from "../pages/guest/Register";
+import Login from "../pages/guest/Login";
 
 
 

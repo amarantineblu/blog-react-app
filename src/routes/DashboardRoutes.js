@@ -3,16 +3,38 @@ import DashboardLayout from '../layouts/DashboardLayout/DashboardLayout';
 import Dashboard from '../pages/dashboard/Dashboard';
 import PrivateRoute from '../PrivateRoute';
 
-const DashboardRoutes = () => (
+// const DashboardRoutes = () => {
+//   console.log("DashboardLayout rendering");
+
+//   return (
+//     <Routes>
+//     {/* PrivateRoute handles auth */}
+//     <Route element={<PrivateRoute />}>
+//       {/* DashboardLayout wraps the protected dashboard page */}
+//       <Route element={<DashboardLayout />}>
+//         <Route index element={<Dashboard />} />
+
+//         {/* <Route path="/dashboard/" element={<Dashboard />} /> */}
+//       </Route>
+//     </Route>
+//   </Routes>
+//  )
+// };
+
+const DashboardRoutes = () => {
+console.log("DashboardRoute rendering");
+  return (
   <Routes>
-    {/* PrivateRoute handles auth */}
     <Route element={<PrivateRoute />}>
-      {/* DashboardLayout wraps the protected dashboard page */}
       <Route element={<DashboardLayout />}>
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route index element={<Dashboard />} />
+          {/* add more nested routes as needed */}
+          <Route path="test" element={<div>Test Route</div>} />
+
       </Route>
     </Route>
   </Routes>
-);
+)};
+
 
 export default DashboardRoutes;

@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useAuth } from './AuthContext';
+
 
 import "./App.css";
 
@@ -10,6 +12,13 @@ import PrivateRoute from "./PrivateRoute";
 // import Home from "./pages/guest/Home";
 
 function App() {
+   const { user, loading } = useAuth();
+
+  if (loading) return <p>Loading...</p>; // Wait for auth to load
+
+  console.log("Auth loading:", loading);
+  console.log("User:", user);
+
   return(
     <Router>
       <Routes>
@@ -18,10 +27,9 @@ function App() {
 
         {/* Authenticated (dashboard) Routes */}
         <Route path="/dashboard/*" element={
-          <PrivateRoute>
             <DashboardRoutes/>
-          </PrivateRoute>
          } />
+        
       </Routes>
     </Router>
   );

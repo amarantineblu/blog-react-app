@@ -2,18 +2,33 @@ import React,{useEffect} from 'react';
 import { Helmet } from 'react-helmet';
 import { Outlet } from 'react-router-dom';
 
-// import "./assets/plugins/bootstrap/css/bootstrap.min.css";
-import "./assets/css/index.css";
-import "./assets/css/color_skins.css"
-
+import "./someMoreAssets/plugins/bootstrap/css/bootstrap.min.css";
+import "./someMoreAssets/plugins/jquery-datatable/dataTables.bootstrap4.min.css";
+import "./assets/css/main.css";
+// import "./assets/css/index.css";
+import "./assets/css/color_skins.css";
 
 const DashboardLayout = () => {
-    console.log("DashboardLayout rendering");
-
+  console.log("DashboardLayout rendering");
   useEffect(() => {
     const bodyElement = document.getElementById("bodyTag");
     bodyElement.classList.add('theme-purple');
-
+		const loadScript = (src) => {
+			const script = document.createElement("script");
+			script.src = src;
+			script.async = false;
+			document.body.appendChild(script);
+		};
+		loadScript("./assets/bundles/libscripts.bundle.js");
+		loadScript("./assets/bundles/vendorscripts.bundle.js"); 
+		loadScript("./assets/bundles/datatablescripts.bundle.js");
+		loadScript("./someMoreAssets/plugins/jquery-datatable/buttons/dataTables.buttons.min.js");
+		loadScript("./someMoreAssets/plugins/jquery-datatable/buttons/buttons.bootstrap4.min.js");
+		loadScript("./someMoreAssets/plugins/jquery-datatable/buttons/buttons.colVis.min.js");
+		loadScript("./someMoreAssets/plugins/jquery-datatable/buttons/buttons.html5.min.js");
+		loadScript("./someMoreAssets/plugins/jquery-datatable/buttons/buttons.print.min.js");
+		loadScript("./assets/bundles/mainscripts.bundle.js");
+		loadScript("./assets/js/pages/tables/jquery-datatable.js");
   }, []);
   return (
     <>
@@ -33,6 +48,9 @@ const DashboardLayout = () => {
         {/* <!-- Custom Css --> */}
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="assets/css/color_skins.css"/>
+
+         {/* <!-- Jquery Core Js -->  */}
+         
       </Helmet>
       
             {/* <!-- Page Loader --> */}
@@ -826,20 +844,7 @@ const DashboardLayout = () => {
           <Outlet/>
 
 
-          {/* <!-- Jquery Core Js -->  */}
-          <script src="assets/bundles/libscripts.bundle.js"></script>
-          {/* <!-- Lib Scripts Plugin Js -->  */}
-          <script src="assets/bundles/vendorscripts.bundle.js"></script> 
          
-          <script src="assets/bundles/datatablescripts.bundle.js"></script>
-          <script src="../assets/plugins/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
-          <script src="../assets/plugins/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
-          <script src="../assets/plugins/jquery-datatable/buttons/buttons.colVis.min.js"></script>
-          <script src="../assets/plugins/jquery-datatable/buttons/buttons.html5.min.js"></script>
-          <script src="../assets/plugins/jquery-datatable/buttons/buttons.print.min.js"></script>
-
-          <script src="assets/bundles/mainscripts.bundle.js"></script>
-          <script src="assets/js/pages/tables/jquery-datatable.js"></script>
     </>
   );
 };

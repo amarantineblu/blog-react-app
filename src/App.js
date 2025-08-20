@@ -18,6 +18,8 @@ function App() {
 
   console.log("Auth loading:", loading);
   console.log("User:", user);
+  console.log('app.js page');
+  
 
   return(
     <Router>

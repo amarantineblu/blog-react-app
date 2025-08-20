@@ -38,17 +38,7 @@ const icons = {
 const GuestLayout = () => {
     const location = useLocation();
   useEffect(() => {     
-      // Helper to load a script
-        // const htmlElement = document.getElementById("tagHtml");
-        // htmlElement.classList.add("js", "flexbox", "canvas", "canvastext", "webgl", "no-touch", "geolocation",
-        //     "postmessage", "no-websqldatabase", "indexeddb", "hashchange", "history", "draganddrop", "websockets",
-        //     "rgba", "hsla", "multiplebgs", "backgroundsize", "borderimage", "borderradius", "boxshadow", "textshadow",
-        //     "opacity", "cssanimations", "csscolumns", "cssgradients", "cssreflections", "csstransforms", "csstransforms3d",
-        //     "csstransitions", "fontface", "generatedcontent", "video", "audio", "localstorage", "sessionstorage",
-        //     "webworkers", "no-applicationcache", "svg", "inlinesvg", "smil", "svgclippaths", "no-js");
-        //   const bodyElement = document.getElementById("bodyTag");
-        //   console.log(bodyElement);
-        // bodyElement.setAttributes();
+      
           
           const loadScript = (src) => {
               const script = document.createElement("script");

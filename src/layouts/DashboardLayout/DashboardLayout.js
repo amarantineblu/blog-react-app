@@ -3,8 +3,29 @@ import { Helmet } from 'react-helmet';
 import { Outlet } from 'react-router-dom';
 
 import "./dashboard assets/css/volt.css";
+import "./dashboard assets/css/main.min.css";
+import {
+	getAuth,
+	signOut
+} from 'firebase/auth';
+
+
+
 
 const DashboardLayout = () => {
+	  const auth = getAuth();
+
+	  const handleLogout = () => {
+	  	signOut(auth)
+	  		.then(() => {
+	  			console.log('User signed out');
+	  			// Redirect or update UI here
+	  		})
+	  		.catch((error) => {
+	  			console.error('Sign-out error:', error);
+	  		});
+	  };
+
 	useEffect(
 		() => {
 			const loadScript = (src) => {
@@ -13,31 +34,18 @@ const DashboardLayout = () => {
 					script.async = false;
 					document.body.appendChild(script);
 			};
-			// loadScript("https://www.googletagmanager.com/gtag/js?id=UA-141734189-6");
 			loadScript("./dashboard assets/vendor/%40popperjs/core/dist/umd/popper.min.js");
 			loadScript("./dashboard assets/assets/js/volt.js");
-
-			// window.dataLayer = window.dataLayer || [];
-			// function gtag() {
-			// 	dataLayer.push(arguments);
-			// }
-			// gtag('js', new Date());
-
-			// gtag('config', 'UA-141734189-6');
-			// (function (w, d, s, l, i) {
-			// 	w[l] = w[l] || [];
-			// 	w[l].push({
-			// 		'gtm.start': new Date().getTime(),
-			// 		event: 'gtm.js'
-			// 	});
-			// 	var f = d.getElementsByTagName(s)[0],
-			// 		j = d.createElement(s),
-			// 		dl = l != 'dataLayer' ? '&l=' + l : '';
-			// 	j.async = true;
-			// 	j.src =
-			// 		'../../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
-			// 	f.parentNode.insertBefore(j, f);
-			// })(window, document, 'script', 'dataLayer', 'GTM-THQTXJ7');
+			loadScript("./dasboard assets/vendor/%40popperjs/core/dist/umd/popper.min.js");
+			loadScript("./dasboard assets/vendor/bootstrap/dist/js/bootstrap.min.js");
+			loadScript("./dasboard assets/vendor/onscreen/dist/on-screen.umd.min.js");
+			loadScript("./dasboard assets/vendor/nouislider/distribute/nouislider.min.js");
+			loadScript("./dasboard assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js");
+			loadScript("./dasboard assets/vendor/countup.js/dist/countUp.umd.js");
+			loadScript("./dasboard assets/vendor/apexcharts/dist/apexcharts.min.js");
+			loadScript("./dasboard assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js");
+			loadScript("./dasboard assets/vendor/simple-datatables/dist/umd/simple-datatables.js");
+			loadScript("./dasboard assets/vendor/sweetalert2/dist/sweetalert2.min.js");
 		},
 		[]
 	);
@@ -45,7 +53,6 @@ const DashboardLayout = () => {
 		<>
 			<Helmet>
 				<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 					<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 					<title>Volt - Premium Bootstrap 5 Dashboard</title>
 					<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
@@ -102,13 +109,14 @@ const DashboardLayout = () => {
 							<div className="avatar-lg me-4"><img src="./dasboard assets/assets/img/team/profile-picture-3.jpg"
 									className="card-img-top rounded-circle border-white" alt="Bonnie Green"/></div>
 							<div className="d-block">
-								<h2 className="h5 mb-3">Hi, Jane</h2><a href="../examples/sign-in.html"
+								<h2 className="h5 mb-3">Hi, Jane</h2>
+								<button onClick={handleLogout}
 									className="btn btn-secondary btn-sm d-inline-flex align-items-center"><svg className="icon icon-xxs me-1"
-										fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
 											d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1">
 										</path>
-									</svg> Sign Out</a>
+									</svg> Sign Out</button>
 							</div>
 						</div>
 						<div className="collapse-close d-md-none"><a href="#sidebarMenu" data-bs-toggle="collapse"
@@ -332,7 +340,7 @@ const DashboardLayout = () => {
 					</ul>
 				</div>
 			</nav>
-			<div className="content">
+			<main className="content">
 				<nav className="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0">
 					<div className="container-fluid px-0">
 						<div className="d-flex justify-content-between w-100" id="navbarSupportedContent">
@@ -1501,10 +1509,25 @@ const DashboardLayout = () => {
 						</div>
 					</div>
 				</footer>
-			</div>
-			<script src="./dasboard assets/vendor/%40popperjs/core/dist/umd/popper.min.js"></script>
-			<script src="./dasboard assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>    <script src="./dasboard assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>    <script src="./dasboard assets/vendor/nouislider/distribute/nouislider.min.js"></script>    <script src="./dasboard assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>    <script src="./dasboard assets/vendor/countup.js/dist/countUp.umd.js"></script>    <script src="./dasboard assets/vendor/apexcharts/dist/apexcharts.min.js"></script>    <script src="./dasboard assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>    <script src="./dasboard assets/vendor/simple-datatables/dist/umd/simple-datatables.js"></script>    <script src="./dasboard assets/vendor/sweetalert2/dist/sweetalert2.min.js"></script>    <script src="./dasboard assets/../../cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-					<script src="./dasboard assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>    <script src="./dasboard assets/vendor/fullcalendar/main.min.js"></script>    <script src="./dasboard assets/vendor/dropzone/dist/min/dropzone.min.js"></script>    <script src="./dasboard assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>    <script src="./dasboard assets/vendor/notyf/notyf.min.js"></script>    <script src="./dasboard assets/vendor/leaflet/dist/leaflet.js"></script>    <script src="./dasboard assets/vendor/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
+			</main>
+			{/* <script src="./dasboard assets/vendor/%40popperjs/core/dist/umd/popper.min.js");
+			<script src="./dasboard assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script src="./dasboard assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+			<script src="./dasboard assets/vendor/nouislider/distribute/nouislider.min.js"></script>
+			<script src="./dasboard assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+			<script src="./dasboard assets/vendor/countup.js/dist/countUp.umd.js"></script>
+			<script src="./dasboard assets/vendor/apexcharts/dist/apexcharts.min.js"></script>
+			<script src="./dasboard assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>
+			<script src="./dasboard assets/vendor/simple-datatables/dist/umd/simple-datatables.js"></script>
+			<script src="./dasboard assets/vendor/sweetalert2/dist/sweetalert2.min.js"></script> */}
+			<script src="./dasboard assets/../../cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+			<script src="./dasboard assets/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>
+			<script src="./dasboard assets/vendor/fullcalendar/main.min.js"></script>
+			<script src="./dasboard assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+			<script src="./dasboard assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+			<script src="./dasboard assets/vendor/notyf/notyf.min.js"></script>
+			<script src="./dasboard assets/vendor/leaflet/dist/leaflet.js"></script>
+			<script src="./dasboard assets/vendor/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
 			<script src="./dasboard assets/vendor/svgmap/dist/svgMap.min.js"></script>
 			<script src="./dasboard assets/vendor/simplebar/dist/simplebar.min.js"></script>    
 			<script src="./dasboard assets/vendor/sortablejs/Sortable.min.js"></script>

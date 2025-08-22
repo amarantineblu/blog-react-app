@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "firebase": "^11.10.0",
     "imagesloaded": "^5.0.0",
     "jquery": "^3.6.0",
@@ -14,8 +16,10 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^7.5.1",
+    "react-router-dom": "^7.5.0",
     "react-scripts": "^5.0.1",
+    "redis": "^5.8.2",
+    "source-map-loader": "^5.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -44,6 +48,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
     "@eslint/js": "^9.31.0",
     "cypress": "^14.5.1",
     "eslint": "^8.57.1",

@@ -245,14 +245,14 @@ const GuestLayout = () => {
             </div>
         </div>
     </header>
-        {location.pathname === "/" && (
+        {location.pathname === "/" ? (
             <div id="main-wrapper">
                 <Outlet />
             </div>
-        )}
+        ): <Outlet/>}
       {/* Main Wrapper */}
         {/* ...main content... */}
-        <Outlet />
+        {/* <Outlet /> */}
           
 
       {/* Footer */}

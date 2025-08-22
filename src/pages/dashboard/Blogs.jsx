@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import ProfilePicture_1 from './dashboard assets/assets/img/team/profile-picture-1.jpg'; 
-import ProfilePicture_2 from './dashboard assets/assets/img/team/profile-picture-2.jpg'; 
-import ProfilePicture_3 from './dashboard assets/assets/img/team/profile-picture-3.jpg'; 
+import ProfilePicture_1 from '../../layouts/DashboardLayout/dashboard assets/assets/img/team/profile-picture-1.jpg'; 
+import ProfilePicture_2 from '../../layouts/DashboardLayout/dashboard assets/assets/img/team/profile-picture-2.jpg'; 
+import ProfilePicture_3 from '../../layouts/DashboardLayout/dashboard assets/assets/img/team/profile-picture-3.jpg'; 
 
 
 const Blogs = () => {
@@ -124,13 +124,13 @@ const Blogs = () => {
                 <h5 className="fs-6 fw-normal mt-4">3 Assignees</h5>
                 <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src={{ProfilePicture_1}} /> </a><a
+                    className="rounded" alt="Image placeholder" src={ProfilePicture_1} /> </a><a
                       href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src={{ProfilePicture_3}}/> </a><a href="#"
+                        alt="Image placeholder" src={ProfilePicture_3}/> </a><a href="#"
                           className="avatar" data-bs-toggle="tooltip" data-original-title="Alexander Smith"
                           data-bs-original-title="Alexander Smith" title="Alexander Smith"><img className="rounded"
-                            alt="Image placeholder" src={{ProfilePicture_2}}/></a></div>
+                            alt="Image placeholder" src={ProfilePicture_2}/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">

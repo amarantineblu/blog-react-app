@@ -22,26 +22,26 @@ const Blogs = () => {
                 </path>
               </svg></button>
               <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                className="dropdown-item d-flex align-items-center" href="#"><svg
+                className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z">
                   </path>
-                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                   <path
                     d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                   </path>
-                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
                     d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                     clipRule="evenodd"></path>
-                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -50,7 +50,7 @@ const Blogs = () => {
                     clipRule="evenodd"></path>
                 </svg> Watch</a>
                 <div role="separator" className="dropdown-divider my-1"></div><a
-                  className="dropdown-item d-flex align-items-center" href="#"><svg className="dropdown-icon text-danger me-2"
+                  className="dropdown-item d-flex align-items-center" href="/"><svg className="dropdown-icon text-danger me-2"
                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd"
                       d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
@@ -76,20 +76,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -97,7 +97,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -106,13 +106,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -122,15 +122,15 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">3 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src={ProfilePicture_1} /> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src={ProfilePicture_1} /> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src={ProfilePicture_3}/> </a><a href="#"
+                        alt="pic placeholder" src={ProfilePicture_3}/> </a><a href="/"
                           className="avatar" data-bs-toggle="tooltip" data-original-title="Alexander Smith"
                           data-bs-original-title="Alexander Smith" title="Alexander Smith"><img className="rounded"
-                            alt="Image placeholder" src={ProfilePicture_2}/></a></div>
+                            alt="pic placeholder" src={ProfilePicture_2}/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">
@@ -149,20 +149,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -170,7 +170,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -179,13 +179,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -196,12 +196,12 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">2 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">
@@ -220,20 +220,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -241,7 +241,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -250,13 +250,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -266,15 +266,15 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">3 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="#"
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="/"
                           className="avatar" data-bs-toggle="tooltip" data-original-title="Alexander Smith"
                           data-bs-original-title="Alexander Smith" title="Alexander Smith"><img className="rounded"
-                            alt="Image placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
+                            alt="pic placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
               </div>
             </div> <button type="button"
               className="btn btn-outline-gray-500 d-inline-flex align-items-center justify-content-center dashed-outline new-card w-100"
@@ -323,26 +323,26 @@ const Blogs = () => {
                 </path>
               </svg></button>
               <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                className="dropdown-item d-flex align-items-center" href="#"><svg
+                className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z">
                   </path>
-                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                   <path
                     d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                   </path>
-                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
                     d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                     clipRule="evenodd"></path>
-                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -351,7 +351,7 @@ const Blogs = () => {
                     clipRule="evenodd"></path>
                 </svg> Watch</a>
                 <div role="separator" className="dropdown-divider my-1"></div><a
-                  className="dropdown-item d-flex align-items-center" href="#"><svg className="dropdown-icon text-danger me-2"
+                  className="dropdown-item d-flex align-items-center" href="/"><svg className="dropdown-icon text-danger me-2"
                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd"
                       d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
@@ -377,20 +377,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -398,7 +398,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -407,13 +407,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -424,12 +424,12 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">2 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">
@@ -448,20 +448,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -469,7 +469,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -478,13 +478,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -502,12 +502,12 @@ const Blogs = () => {
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <h5 className="fs-6 fw-normal mt-4">2 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
               </div>
             </div> <button type="button"
               className="btn btn-outline-gray-500 d-inline-flex align-items-center justify-content-center dashed-outline new-card w-100"
@@ -556,26 +556,26 @@ const Blogs = () => {
                 </path>
               </svg></button>
               <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                className="dropdown-item d-flex align-items-center" href="#"><svg
+                className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z">
                   </path>
-                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                   <path
                     d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                   </path>
-                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
                     d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                     clipRule="evenodd"></path>
-                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -584,7 +584,7 @@ const Blogs = () => {
                     clipRule="evenodd"></path>
                 </svg> Watch</a>
                 <div role="separator" className="dropdown-divider my-1"></div><a
-                  className="dropdown-item d-flex align-items-center" href="#"><svg className="dropdown-icon text-danger me-2"
+                  className="dropdown-item d-flex align-items-center" href="/"><svg className="dropdown-icon text-danger me-2"
                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd"
                       d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
@@ -610,20 +610,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -631,7 +631,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -640,13 +640,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -656,15 +656,15 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">3 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="#"
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="/"
                           className="avatar" data-bs-toggle="tooltip" data-original-title="Alexander Smith"
                           data-bs-original-title="Alexander Smith" title="Alexander Smith"><img className="rounded"
-                            alt="Image placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
+                            alt="pic placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">
@@ -683,20 +683,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -704,7 +704,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -713,13 +713,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -730,12 +730,12 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">2 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
               </div>
             </div> <button type="button"
               className="btn btn-outline-gray-500 d-inline-flex align-items-center justify-content-center dashed-outline new-card w-100"
@@ -784,26 +784,26 @@ const Blogs = () => {
                 </path>
               </svg></button>
               <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                className="dropdown-item d-flex align-items-center" href="#"><svg
+                className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z">
                   </path>
-                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Add Card </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                   <path
                     d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                   </path>
-                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Copy List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
                     d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                     clipRule="evenodd"></path>
-                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                </svg> Move List </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                   className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -812,7 +812,7 @@ const Blogs = () => {
                     clipRule="evenodd"></path>
                 </svg> Watch</a>
                 <div role="separator" className="dropdown-divider my-1"></div><a
-                  className="dropdown-item d-flex align-items-center" href="#"><svg className="dropdown-icon text-danger me-2"
+                  className="dropdown-item d-flex align-items-center" href="/"><svg className="dropdown-icon text-danger me-2"
                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd"
                       d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
@@ -838,20 +838,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -859,7 +859,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -868,13 +868,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -884,15 +884,15 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">3 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="#"
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/> </a><a href="/"
                           className="avatar" data-bs-toggle="tooltip" data-original-title="Alexander Smith"
                           data-bs-original-title="Alexander Smith" title="Alexander Smith"><img className="rounded"
-                            alt="Image placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
+                            alt="pic placeholder" src="../assets/img/team/profile-picture-2.jpg"/></a></div>
               </div>
             </div>
             <div className="card border-0 shadow p-4">
@@ -911,20 +911,20 @@ const Blogs = () => {
                         clipRule="evenodd"></path>
                     </svg></button>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-1"><a
-                      className="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal"
+                      className="dropdown-item d-flex align-items-center" href="/" data-bs-toggle="modal"
                       data-bs-target="#editTaskModal"><svg className="dropdown-icon text-gray-400 me-2"
                         fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z">
                         </path>
-                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Edit Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
                         <path
                           d="M3 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v6h-4.586l1.293-1.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L10.414 13H15v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5zM15 11h2a1 1 0 110 2h-2v-2z">
                         </path>
-                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="#"><svg
+                      </svg> Copy Task </a><a className="dropdown-item d-flex align-items-center" href="/"><svg
                         className="dropdown-icon text-gray-400 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -932,7 +932,7 @@ const Blogs = () => {
                         </path>
                       </svg> Add to favorites</a>
                       <div role="separator" className="dropdown-divider my-1"></div><a
-                        className="dropdown-item d-flex align-items-center" href="#"><svg
+                        className="dropdown-item d-flex align-items-center" href="/"><svg
                           className="dropdown-icon text-danger me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd"
@@ -941,13 +941,13 @@ const Blogs = () => {
                         </svg> Remove</a>
                     </div>
                     <div className="dropdown-menu dashboard-dropdown dropdown-menu-start py-0"
-                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="#"
+                      aria-labelledby="dropdownMenuLink"><a className="dropdown-item fw-normal rounded-top" href="/"
                         data-bs-toggle="modal" data-bs-target="#editTaskModal"><span className="fas fa-edit"></span>Edit
-                        task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-clone"></span>Copy
-                          Task</a> <a className="dropdown-item fw-normal" href="#"><span className="far fa-star"></span> Add to
+                        task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-clone"></span>Copy
+                          Task</a> <a className="dropdown-item fw-normal" href="/"><span className="far fa-star"></span> Add to
                             favorites</a>
                       <div role="separator" className="dropdown-divider my-0"></div><a
-                        className="dropdown-item fw-normal text-danger rounded-bottom" href="#"><span
+                        className="dropdown-item fw-normal text-danger rounded-bottom" href="/"><span
                           className="fas fa-trash-alt"></span>Remove</a>
                     </div>
                   </div>
@@ -958,12 +958,12 @@ const Blogs = () => {
                 <p>On line 672 you define $table_variants. Each instance of "color-level" needs to be changed to
                   "shift-color".</p>
                 <h5 className="fs-6 fw-normal mt-4">2 Assignees</h5>
-                <div className="avatar-group"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                <div className="avatar-group"><a href="/" className="avatar" data-bs-toggle="tooltip"
                   data-original-title="Ryan Tompson" data-bs-original-title="Ryan Tompson" title="Ryan Tompson"><img
-                    className="rounded" alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
-                      href="#" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
+                    className="rounded" alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a
+                      href="/" className="avatar" data-bs-toggle="tooltip" data-original-title="Bonnie Green"
                       data-bs-original-title="Bonnie Green" title="Bonnie Green"><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-3.jpg"/></a></div>
               </div>
             </div> <button type="button"
               className="btn btn-outline-gray-500 d-inline-flex align-items-center justify-content-center dashed-outline new-card w-100"
@@ -1018,11 +1018,11 @@ const Blogs = () => {
                 <div className="d-flex">
                   <div className="d-block me-3 me-sm-4">
                     <h5 className="fs-6 fw-bold text-gray-500" id="editTaskModalLabel">Members</h5>
-                    <div className="d-flex align-items-center"><a href="#" className="avatar" data-bs-toggle="tooltip"
+                    <div className="d-flex align-items-center"><a href="/" className="avatar" data-bs-toggle="tooltip"
                       data-original-title="Ryan Tompson" data-bs-original-title="" title=""><img className="rounded"
-                        alt="Image placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a href="#"
+                        alt="pic placeholder" src="../assets/img/team/profile-picture-1.jpg"/> </a><a href="/"
                           className="avatar me-1" data-bs-toggle="tooltip" data-original-title="Romina Hadid"
-                          data-bs-original-title="" title=""><img className="rounded" alt="Image placeholder"
+                          data-bs-original-title="" title=""><img className="rounded" alt="pic placeholder"
                             src="../assets/img/team/profile-picture-2.jpg"/> </a><button
                               className="btn btn-icon btn-sm btn-gray-200 d-inline-flex align-items-center"><svg
                                 className="icon icon-xs" fill="currentColor" viewBox="0 0 20 20"
@@ -1034,7 +1034,7 @@ const Blogs = () => {
                   </div>
                   <div className="d-block me-3">
                     <h5 className="fs-6 fw-bold text-gray-500">Labels</h5>
-                    <div className="d-flex align-items-center"><a href="#"
+                    <div className="d-flex align-items-center"><a href="/"
                       className="badge bg-success text-white rounded py-2 px-3 me-1">Design </a><button
                         className="btn btn-sm btn-gray-200 d-inline-flex align-items-center"><svg className="icon icon-xs"
                           fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1053,12 +1053,12 @@ const Blogs = () => {
                     <div className="col-auto">
                       <div className="border border-3 rounded mb-2"><img className="image-sm rounded"
                         src="../assets/img/team/profile-picture-1.jpg" alt="profile picture"/></div>
-                      <div className="text-center"><a href="#" className="me-2"><svg className="icon icon-xs" fill="none"
+                      <div className="text-center"><a href="/" className="me-2"><svg className="icon icon-xs" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13">
                         </path>
-                      </svg> </a><a href="#"><svg className="icon icon-xs" fill="none" stroke="currentColor"
+                      </svg> </a><a href="/"><svg className="icon icon-xs" fill="none" stroke="currentColor"
                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z">
@@ -1081,8 +1081,8 @@ const Blogs = () => {
                         </div>
                         <p className="text-dark mb-1">Pixel Pro is a premium Bootstrap 5 UI Kit without jQuery featuring
                           over 1000 components, 50+ sections and 35 example pages including a fully fledged user
-                          dashboard.</p><a className="text-gray-700 hover:underline small" href="#">Edit</a> &middot; <a
-                            className="text-gray-700 hover:underline small" href="#">Delete</a>
+                          dashboard.</p><a className="text-gray-700 hover:underline small" href="/">Edit</a> &middot; <a
+                            className="text-gray-700 hover:underline small" href="/">Delete</a>
                       </div>
                     </div>
                     <div className="col-12">
@@ -1092,28 +1092,28 @@ const Blogs = () => {
                         </div>
                         <p className="text-dark mb-1">Pixel Pro is a premium Bootstrap 5 UI Kit without jQuery featuring
                           over 1000 components, 50+ sections and 35 example pages including a fully fledged user
-                          dashboard.</p><a className="text-gray-700 hover:underline small" href="#">Edit</a> &middot; <a
-                            className="text-gray-700 hover:underline small" href="#">Delete</a>
+                          dashboard.</p><a className="text-gray-700 hover:underline small" href="/">Edit</a> &middot; <a
+                            className="text-gray-700 hover:underline small" href="/">Delete</a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-12 col-lg-3">
-                  <div className="d-grid gap-2"><a href="#"
+                  <div className="d-grid gap-2"><a href="/"
                     className="btn btn-sm btn-gray-200 d-inline-flex align-items-center rounded py-1 ps-3 text-start"><svg
                       className="icon icon-xxs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
                       </path>
-                    </svg> Members </a><a href="#"
+                    </svg> Members </a><a href="/"
                       className="btn btn-sm btn-gray-200 d-inline-flex align-items-center rounded py-1 ps-3 text-start"><svg
                         className="icon icon-xxs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd"
                           d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z"
                           clipRule="evenodd"></path>
-                      </svg> Labels </a><a href="#"
+                      </svg> Labels </a><a href="/"
                         className="btn btn-sm btn-gray-200 d-inline-flex align-items-center rounded py-1 ps-3 text-start"><svg
                           className="icon icon-xxs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
@@ -1121,14 +1121,14 @@ const Blogs = () => {
                         <path fillRule="evenodd"
                           d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
                           clipRule="evenodd"></path>
-                      </svg> Checklist </a><a href="#"
+                      </svg> Checklist </a><a href="/"
                         className="btn btn-sm btn-gray-200 d-inline-flex align-items-center rounded py-1 ps-3 text-start"><svg
                           className="icon icon-xxs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd"
                           d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z"
                           clipRule="evenodd"></path>
-                      </svg> Attachment </a><a href="#"
+                      </svg> Attachment </a><a href="/"
                         className="btn btn-sm btn-gray-200 d-inline-flex align-items-center rounded py-1 ps-3 text-start"><svg
                           className="icon icon-xxs text-gray-500 me-2" fill="currentColor" viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg">
@@ -1140,21 +1140,21 @@ const Blogs = () => {
               </div>
             </div>
             <div className="modal-footer justify-content-start border-top">
-              <div className="d-none d-sm-flex"><a href="#"
+              <div className="d-none d-sm-flex"><a href="/"
                 className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
                   className="icon icon-xs text-gray-300 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd"
                     d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                     clipRule="evenodd"></path>
-                </svg> Move </a><a href="#" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
+                </svg> Move </a><a href="/" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
                   className="icon icon-xs text-gray-300 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z"></path>
                   <path fillRule="evenodd"
                     d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"
                     clipRule="evenodd"></path>
-                </svg> Archive </a><a href="#" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
+                </svg> Archive </a><a href="/" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
                   className="icon icon-xs text-gray-300 me-2" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -1166,18 +1166,18 @@ const Blogs = () => {
                     <path fillRule="evenodd"
                       d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                       clipRule="evenodd"></path>
-                  </svg> </a><a href="#" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
+                  </svg> </a><a href="/" className="btn btn-gray-800 d-inline-flex align-items-center me-2"><svg
                     className="icon icon-xxs text-gray-300 me-2" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z">
                     </path>
                   </svg> Share</a></div>
-              <div className="col-12 d-grid gap-2 d-sm-none"><a href="#" className="btn btn-gray-800 me-2 text-start"><span
-                className="fas fa-arrow-right me-2"></span>Move</a> <a href="#"
+              <div className="col-12 d-grid gap-2 d-sm-none"><a href="/" className="btn btn-gray-800 me-2 text-start"><span
+                className="fas fa-arrow-right me-2"></span>Move</a> <a href="/"
                   className="btn btn-gray-800 me-2 text-start"><span className="fas fa-archive me-2"></span>Archive</a> <a
-                    href="#" className="btn btn-gray-800 me-2 text-start"><span className="fas fa-eye me-2"></span>Watch<span
-                      className="fas fa-check-circle ms-3 text-success"></span></a> <a href="#"
+                    href="/" className="btn btn-gray-800 me-2 text-start"><span className="fas fa-eye me-2"></span>Watch<span
+                      className="fas fa-check-circle ms-3 text-success"></span></a> <a href="/"
                         className="btn btn-gray-800 me-2 text-start"><span className="fas fa-share-alt me-2"></span>Share</a></div>
             </div>
           </div>

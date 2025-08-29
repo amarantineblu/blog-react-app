@@ -99,7 +99,7 @@ const DashboardIndexPeripherals = () => {
 							</div>
 							<div className="card-body text-center py-4 py-xl-5">
 								<h3 className="display-3 fw-extrabold mb-0">$456,678</h3>
-								<p>Total Themesberg Sales</p><a href="#" className="btn btn-primary d-inline-flex align-items-center"><svg
+								<p>Total Themesberg Sales</p><a href="/" className="btn btn-primary d-inline-flex align-items-center"><svg
 										className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 										<path fillRule="evenodd"
 											d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
@@ -121,10 +121,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-1.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Chris Wood</a></h4><span className="small">Graphic
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Chris Wood</a></h4><span className="small">Graphic
 													Designer</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$1,834</span></div>
@@ -133,10 +133,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-3.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Bonnie Green</a></h4><span className="small">Web
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Bonnie Green</a></h4><span className="small">Web
 													Developer</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$1,355</span></div>
@@ -145,10 +145,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-2.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Chris Wood</a></h4><span className="small">React
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Chris Wood</a></h4><span className="small">React
 													Developer</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$1,297</span></div>
@@ -157,10 +157,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-4.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Neil Sims</a></h4><span className="small">Python
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Neil Sims</a></h4><span className="small">Python
 													Developer</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$875</span></div>
@@ -169,10 +169,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-5.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Rebbeca Sas</a></h4><span className="small">UI/UX, Art
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Rebbeca Sas</a></h4><span className="small">UI/UX, Art
 													Directo</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$872</span></div>
@@ -181,10 +181,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent border-bottom py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-6.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Jacklyn Brown</a></h4><span className="small">UI/UX, Art
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Jacklyn Brown</a></h4><span className="small">UI/UX, Art
 													Directo</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$605</span></div>
@@ -193,10 +193,10 @@ const DashboardIndexPeripherals = () => {
 									<li className="list-group-item bg-transparent py-3 px-0">
 										<div className="row align-items-center">
 											<div className="col-auto">
-												<a href="#" className="avatar-md"><img className="rounded" alt="Image placeholder"
+												<a href="/" className="avatar-md"><img className="rounded" alt="pic placeholder"
 														src="./dasboard assets/assets/img/team/profile-picture-7.jpg"/></a></div>
 											<div className="col-auto px-0">
-												<h4 className="fs-6 text-dark mb-0"><a href="#">Melinda Norrow</a></h4><span className="small">UI/UX, Art
+												<h4 className="fs-6 text-dark mb-0"><a href="/">Melinda Norrow</a></h4><span className="small">UI/UX, Art
 													Directo</span>
 											</div>
 											<div className="col text-end"><span className="fs-6 fw-bolder text-dark">$305</span></div>
@@ -210,7 +210,7 @@ const DashboardIndexPeripherals = () => {
 						<div className="card notification-card border-0 shadow">
 							<div className="card-header d-flex align-items-center">
 								<h2 className="fs-5 fw-bold mb-0">Notifications</h2>
-								<div className="ms-auto"><a className="fw-normal d-inline-flex align-items-center" href="#"><svg
+								<div className="ms-auto"><a className="fw-normal d-inline-flex align-items-center" href="/"><svg
 											className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20"
 											xmlns="http://www.w3.org/2000/svg">
 											<path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
@@ -438,15 +438,15 @@ const DashboardIndexPeripherals = () => {
 											<li className="list-group-item px-0">
 												<div className="row align-items-center">
 													<div className="col-auto">
-														<a href="#" className="avatar"><img className="rounded" alt="Image placeholder"
+														<a href="/" className="avatar"><img className="rounded" alt="pic placeholder"
 																src="./dasboard assets/assets/img/team/profile-picture-1.jpg"/></a></div>
 													<div className="col-auto ms--2">
-														<h4 className="h6 mb-0"><a href="#">Chris Wood</a></h4>
+														<h4 className="h6 mb-0"><a href="/">Chris Wood</a></h4>
 														<div className="d-flex align-items-center">
 															<div className="bg-success dot rounded-circle me-1"></div><small>Online</small>
 														</div>
 													</div>
-													<div className="col text-end"><a href="#"
+													<div className="col text-end"><a href="/"
 															className="btn btn-sm btn-secondary d-inline-flex align-items-center"><svg
 																className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20"
 																xmlns="http://www.w3.org/2000/svg">
@@ -460,14 +460,14 @@ const DashboardIndexPeripherals = () => {
 												<div className="row align-items-center">
 													<div className="col-auto">
 														<a href="../users.html" className="avatar"><img className="rounded-circle"
-																alt="Image placeholder" src="./dasboard assets/assets/img/team/profile-picture-2.jpg"/></a></div>
+																alt="pic placeholder" src="./dasboard assets/assets/img/team/profile-picture-2.jpg"/></a></div>
 													<div className="col-auto ms--2">
-														<h4 className="h6 mb-0"><a href="#">Jose Leos</a></h4>
+														<h4 className="h6 mb-0"><a href="/">Jose Leos</a></h4>
 														<div className="d-flex align-items-center">
 															<div className="bg-warning dot rounded-circle me-1"></div><small>In a meeting</small>
 														</div>
 													</div>
-													<div className="col text-end"><a href="#"
+													<div className="col text-end"><a href="/"
 															className="btn btn-sm btn-secondary d-inline-flex align-items-center"><svg
 																className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20"
 																xmlns="http://www.w3.org/2000/svg">
@@ -480,15 +480,15 @@ const DashboardIndexPeripherals = () => {
 											<li className="list-group-item px-0">
 												<div className="row align-items-center">
 													<div className="col-auto">
-													<a href="#" className="avatar"><img className="rounded-circle" alt="Image placeholder"
+													<a href="/" className="avatar"><img className="rounded-circle" alt="pic placeholder"
 																src="./dasboard assets/assets/img/team/profile-picture-3.jpg"/></a></div>
 													<div className="col-auto ms--2">
-														<h4 className="h6 mb-0"><a href="#">Bonnie Green</a></h4>
+														<h4 className="h6 mb-0"><a href="/">Bonnie Green</a></h4>
 														<div className="d-flex align-items-center">
 															<div className="bg-danger dot rounded-circle me-1"></div><small>Offline</small>
 														</div>
 													</div>
-													<div className="col text-end"><a href="#"
+													<div className="col text-end"><a href="/"
 															className="btn btn-sm btn-secondary d-inline-flex align-items-center"><svg
 																className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20"
 																xmlns="http://www.w3.org/2000/svg">
@@ -501,15 +501,15 @@ const DashboardIndexPeripherals = () => {
 											<li className="list-group-item px-0">
 												<div className="row align-items-center">
 													<div className="col-auto">
-														<a href="#" className="avatar"><img className="rounded-circle" alt="Image placeholder"
+														<a href="/" className="avatar"><img className="rounded-circle" alt="pic placeholder"
 																src="./dasboard assets/assets/img/team/profile-picture-4.jpg"/></a></div>
 													<div className="col-auto ms--2">
-														<h4 className="h6 mb-0"><a href="#">Neil Sims</a></h4>
+														<h4 className="h6 mb-0"><a href="/">Neil Sims</a></h4>
 														<div className="d-flex align-items-center">
 															<div className="bg-danger dot rounded-circle me-1"></div><small>Offline</small>
 														</div>
 													</div>
-													<div className="col text-end"><a href="#"
+													<div className="col text-end"><a href="/"
 															className="btn btn-sm btn-secondary d-inline-flex align-items-center"><svg
 																className="icon icon-xxs me-2" fill="currentColor" viewBox="0 0 20 20"
 																xmlns="http://www.w3.org/2000/svg">
@@ -628,7 +628,7 @@ const DashboardIndexPeripherals = () => {
 											</div>
 											<div className="col"><a href="../calendar.html">
 													<h3 className="h5 mb-1">Newmarket Nights</h3>
-												</a><span>Organized by <a href="#">University of Oxford</a></span>
+												</a><span>Organized by <a href="/">University of Oxford</a></span>
 												<div className="small fw-bold">Time: 6:00AM</div><span className="small fw-bold">Place: Cambridge Boat
 													Club, Cambridge</span>
 											</div>
@@ -639,7 +639,7 @@ const DashboardIndexPeripherals = () => {
 											</div>
 											<div className="col"><a href="../calendar.html">
 													<h3 className="h5 mb-1">Noco Hemp Expo</h3>
-												</a><span>Organized by <a href="#">University of Oxford</a></span>
+												</a><span>Organized by <a href="/">University of Oxford</a></span>
 												<div className="small fw-bold">Thu, 12 Sep - Sat, 18 Sep 2020</div><span className="small fw-bold">Place:
 													Denver Expo Club, USA</span>
 											</div>
@@ -650,7 +650,7 @@ const DashboardIndexPeripherals = () => {
 											</div>
 											<div className="col"><a href="../calendar.html">
 													<h3 className="h5 mb-1">EmTech MIT Conference</h3>
-												</a><span>Organized by <a href="#">MIT</a></span>
+												</a><span>Organized by <a href="/">MIT</a></span>
 												<div className="small fw-bold">Thu, 12 Sep - Sat, 18 Sep 2020</div><span className="small fw-bold">Place:
 													California, USA</span>
 											</div>
@@ -661,7 +661,7 @@ const DashboardIndexPeripherals = () => {
 											</div>
 											<div className="col"><a href="../calendar.html">
 													<h3 className="h5 mb-1">Canadian National Exhibition (CNE)</h3>
-												</a><span>Organized by <a href="#">University of Oxford</a></span>
+												</a><span>Organized by <a href="/">University of Oxford</a></span>
 												<div className="small fw-bold">Fri, 20 Sep - Mon, 07 Oct 2020</div><span className="small fw-bold">Place:
 													Toronto , Canada</span>
 											</div>
@@ -693,7 +693,7 @@ const DashboardIndexPeripherals = () => {
 														clipRule="evenodd"></path>
 												</svg> Global Rank</div>
 										</div>
-										<div><a href="#" className="d-flex align-items-center fw-bold">#755 <svg
+										<div><a href="/" className="d-flex align-items-center fw-bold">#755 <svg
 													className="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20"
 													xmlns="http://www.w3.org/2000/svg">
 													<path fillRule="evenodd"
@@ -716,7 +716,7 @@ const DashboardIndexPeripherals = () => {
 														clipRule="evenodd"></path>
 												</svg></div>
 										</div>
-										<div><a href="#" className="d-flex align-items-center fw-bold">#32 <svg
+										<div><a href="/" className="d-flex align-items-center fw-bold">#32 <svg
 													className="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20"
 													xmlns="http://www.w3.org/2000/svg">
 													<path fillRule="evenodd"
@@ -741,7 +741,7 @@ const DashboardIndexPeripherals = () => {
 														clipRule="evenodd"></path>
 												</svg></div>
 										</div>
-										<div><a href="#" className="d-flex align-items-center fw-bold">#11 <svg
+										<div><a href="/" className="d-flex align-items-center fw-bold">#11 <svg
 													className="icon icon-xs text-gray-500 ms-1" fill="currentColor" viewBox="0 0 20 20"
 													xmlns="http://www.w3.org/2000/svg">
 													<path fillRule="evenodd"
@@ -794,7 +794,7 @@ const DashboardIndexPeripherals = () => {
 								<div className="card-body py-4">
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/united-states-of-america.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -811,7 +811,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/canada.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -828,7 +828,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/germany.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -845,7 +845,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/france.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -862,7 +862,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/japan.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -879,7 +879,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/italy.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -896,7 +896,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center mb-4">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/netherlands.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">
@@ -913,7 +913,7 @@ const DashboardIndexPeripherals = () => {
 									</div>
 									<div className="row align-items-center">
 										<div className="col-auto">
-											<a href="#" className="image image-xs rounded-circle"><img alt="Image placeholder"
+											<a href="/" className="image image-xs rounded-circle"><img alt="pic placeholder"
 													src="./dasboard assets/assets/img/flags/sweden.svg"/></a></div>
 										<div className="col">
 											<div className="progress-wrapper">

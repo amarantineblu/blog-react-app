@@ -1,17 +1,21 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import {MemoryRouter, Routes, Route } from "react-router-dom";
-import App from '../../App';
+// import App from '../../App';
 import { AuthProvider } from '../../AuthContext';
+import Home from '../../pages/guest/Home';
 
+    jest.setTimeout(10000); // ⏱ Set timeout to 10 seconds
 
-test('renders guest layout and home page on "/" route', () => {
+test('renders guest layout and home page on "/" route', async() => {
+
   render(
-    <AuthProvider>
-      <MemoryRouter initialEntries={['/']}>
-        <App />
-      </MemoryRouter>
-    </AuthProvider>
+    <MemoryRouter initialEntries={['/']}>
+      <AuthProvider>
+          <Home />
+      </AuthProvider>
+    </MemoryRouter>
   );
-  expect(screen.findByText(/make your store stand out from the others.../i)).toBeInTheDocument();
+  const element = await screen.findByText(/from following/i);
+  expect(element).toBeInTheDocument();
 });

@@ -1,17 +1,53 @@
 import React, { useState } from 'react';
 import InputField from './InputField';
-const ReusableForm = ({formTitle, fields, onSubmit }) => {
+const ReusableForm = ({ formTitle, fields, onSubmit }) => {
+  
 const [formData, setFormData] = useState(fields.reduce((acc, field) => {
 acc[field.name] = '';
 return acc;
 }, {}));
+  
+  const [error, setError] = useState('');
+  const [preview, setPreview] = useState(null);
 
 const handleChange = (e) => {
-const { name, value } = e.target;
-setFormData(prevData => ({
-...prevData,
-[name]: value
-}))
+  const { name, value, files } = e.target;
+  if (!files || files.length === 0) {
+    setFormData(prevData => ({
+    ...prevData,
+    [name]: value
+    }))
+  }
+  // ✅ File type check
+    const file = files[0];
+    const allowedTypes = ['image/jpeg', 'image/png', 'image/webp'];
+    if (!allowedTypes.includes(file.type)) {
+      setError('Only JPG, PNG, and WEBP files are allowed');
+      return;
+    }
+
+    // ✅ File size check (2MB limit)
+    const maxSize = 2 * 1024 * 1024; // 2MB
+    if (file.size > maxSize) {
+      setError('File size should be less than 2MB');
+      return;
+    }
+
+    // ✅ Optional: Check dimensions
+    const img = new Image();
+    img.src = URL.createObjectURL(file);
+    img.onload = () => {
+      if (img.width < 200 || img.height < 200) {
+        setError('Image must be at least 200x200 pixels');
+        return;
+      }
+      // ✅ If everything is fine
+      setError('');
+      setPreview(img.src);
+    };
+    img.onerror = () => {
+      setError('Invalid image file');
+    };
 };
 
 const handleSubmit = (e) => {

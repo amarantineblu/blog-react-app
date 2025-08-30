@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReusableForm from './dashboard components/ReusableForm';
 import { type } from '@testing-library/user-event/dist/type';
 const AddBlogPage = () => {
+  
   const fields = [
     {
       label: 'Blog Title', name:'blog_title', placeholder: 'Input Blog Title Here ', inputDescription: 'input for blog title ', required:true, type: 'text'

@@ -565,7 +565,7 @@ const DashboardLayout = () => {
 					</div>
 				</div>
 				<Outlet/>
-				{location.pathname === '/dashboard/' && <DashboardIndexPeripherals/>}
+				{window.location.pathname === '/dashboard/' && <DashboardIndexPeripherals/>}
 				<footer className="bg-white rounded shadow p-5 mb-4 mt-4">
 					<div className="row">
 						<div className="col-12 col-md-4 col-xl-6 mb-4 mb-md-0">

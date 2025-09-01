@@ -4,13 +4,13 @@ import ReusableFrom from '../../pages/dashboard/dashboard components/ReusableFor
 
 describe('ReusableForm component', () => {
   test('renders without crashing', () => {
-    render(<ReusableForm />);
+    render(<ReusableFrom/>);
     expect(screen.getByText(/form/i)).toBeInTheDocument();
   });
 
   test('submits the form', () => {
     const handleSubmit = jest.fn();
-    render(<ReusableForm onSubmit={handleSubmit} />);
+    render(<ReusableFrom onSubmit={handleSubmit} />);
     fireEvent.click(screen.getByText(/submit/i));
     expect(handleSubmit).toHaveBeenCalled();
   });

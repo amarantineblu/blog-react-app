@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReusableForm from './dashboard components/ReusableForm';
 import { type } from '@testing-library/user-event/dist/type';
 const AddBlogPage = () => {
-  
+  console.log('AddBlogPage Rendered');
   const fields = [
     {
       label: 'Blog Title', name:'blog_title', placeholder: 'Input Blog Title Here ', inputDescription: 'input for blog title ', required:true, type: 'text'
@@ -11,7 +11,7 @@ const AddBlogPage = () => {
       label: 'Blog Main Image', name:'blog_image', inputDescription: 'input for blog details ', type:'file'
     },
     {
-      label: 'Blog Details', name:'blog_details', placeholder: 'Input Blog Details Here ', inputDescription: 'input for blog details ',  isTextArea:true
+      label: 'Blog Contents', name:'content', placeholder: 'Input Blog Content Here ', inputDescription: 'input for blog content ',  isQuillTextEditor:true
     }
     
   ];

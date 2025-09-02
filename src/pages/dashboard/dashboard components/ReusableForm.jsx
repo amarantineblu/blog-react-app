@@ -46,6 +46,10 @@ const handleChange = (e) => {
       // ✅ If everything is fine
       setError('');
       setPreview(img.src);
+      setFormData(prevData => ({
+      ...prevData,
+      [name]: file, // this stores the image file in formData under its field name
+    }));
     };
     img.onerror = () => {
       setError('Invalid image file');

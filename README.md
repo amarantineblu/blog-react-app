@@ -69,15 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-# 🛍️ E-Commerce Landing Page
+# 🛍️ Blog Project
 
-A responsive, modern e-commerce landing page built with **React.js**, **CSS**, and integrated with a mock REST API. This project demonstrates clean UI design, state management, responsive layouts, and component-based architecture suitable for a beginner-to-intermediate level front-end developer.
+A responsive, modern blog page built with **React.js**, **CSS**, and integrated with a mock REST API. This project demonstrates clean UI design, state management, responsive layouts, and component-based architecture suitable for a beginner-to-intermediate level front-end developer.
 
 ---
 
 ## 🔗 Live Demo
 
-[🌐 View Project](https://marcusdev.github.io/ecommerce-landing)
+[🌐 View Project](https://marcusdev.github.io/blog-app)
 
 ---
 

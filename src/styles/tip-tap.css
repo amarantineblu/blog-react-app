@@ -1,0 +1,7 @@
+/* src/styles/tiptap.css */
+.ProseMirror img {
+  max-width: 30%;
+  height: 50%;
+  display: block;
+  margin: 10px 0;
+}

@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useAuth } from './AuthContext';
-import 'react-quill/dist/quill.snow.css';
+// import 'react-quill/dist/quill.snow.css';
 
 
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InputField from './InputField';
 const ReusableForm = ({ formTitle, fields, onSubmit }) => {
   
-  console.log('ReusableForm Rendered');
+  // console.log('ReusableForm Rendered');
 const [formData, setFormData] = useState((fields || []).reduce((acc, field) => {
 acc[field.name] = '';
 return acc;
@@ -13,11 +13,12 @@ return acc;
 
 const handleChange = (e) => {
   const { name, value, files } = e.target;
-  if (!files || files.length === 0) {
+  if (!files) {
     setFormData(prevData => ({
       ...prevData,
       [name]: value
     }));
+    return;
   }
   // ✅ File type check
     const file = files[0];

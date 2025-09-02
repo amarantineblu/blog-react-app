@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css'; // Include Quill styles
+import React from 'react';
+// import ReactQuill from 'react-quill';
+// import 'react-quill/dist/quill.snow.css'; // Include Quill styles
+import TiptapEditor from './../../../components/TipTapEditor';
 
 const InputField = ({ label, type, name, value, onChange, placeholder, isQuillTextEditor, inputDescription, required, validator, widthByCol = 6, isTextArea }) => {
-  const [accept, setAccept] = useState('image/*');
+  // const [accept, setAccept] = useState('image/*');
     // const [quillValue, setQuillValue] = useState('');
 
   return (
@@ -18,21 +19,9 @@ const InputField = ({ label, type, name, value, onChange, placeholder, isQuillTe
         </select>)
         : isQuillTextEditor ?
         (
-          <div>
-            <label className="text-xl font-semibold mb-4">Quill Editor</label>
-            <ReactQuill
-              theme="snow"
-              value={ typeof value === 'string' ? value : ''}
-              onChange={(content) => onChange({ target: { name, value: content } })}
-              placeholder="Write something..."
-            />
-            {/* <div className="mt-4">
-              <strong>Output:</strong>
-              <div dangerouslySetInnerHTML={{ __html: value }} />
-            </div> */}
-          </div>
+          <TiptapEditor name={name} value={value} onChange={onChange} />
         )
-        : (<input type={type} name={name} {...(type === 'file' && accept )} required={required} placeholder={placeholder} className={type === 'checkbox' || type === 'radio' ? "form-check-input" : "form-control"} id={name} onChange={onChange} aria-describedby={inputDescription} />)}
+        : (<input type={type} name={name} {...(type === 'file' && { accept: 'images/*' })} required={required} placeholder={placeholder} className={type === 'checkbox' || type === 'radio' ? "form-check-input" : "form-control"} id={name} onChange={onChange} aria-describedby={inputDescription} />)}
 
         {validator && !validator(value) && <small id="emailHelp" className="form-text text-muted">Invalid Input </small>}
       </div>

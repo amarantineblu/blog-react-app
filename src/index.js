@@ -7,6 +7,7 @@ import { AuthProvider } from './AuthContext';
 // import reportWebVitals from "./reportWebVitals";
 // import Greeting from './test/Greeting';
 
+import './styles/tip-tap.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log('index.js file');

@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import ReusableForm from './dashboard components/ReusableForm';
 import { type } from '@testing-library/user-event/dist/type';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { db, storage } from './../../firebase'; // adjust path
+
 const AddBlogPage = () => {
   console.log('AddBlogPage Rendered');
   const fields = [
@@ -16,8 +20,33 @@ const AddBlogPage = () => {
     
   ];
 
-  const handleFormSubmit = (data) => {
+  const handleFormSubmit = async (data) => {
     console.log('Form Submitted:', data);
+     try {
+    let imageUrl = '';
+
+    // 👇 Upload image if one exists in formData
+    const imageFile = data.blog_image; // replace 'image' with your field name
+    if (imageFile instanceof File) {
+      const imageRef = ref(storage, `uploads/${Date.now()}_${imageFile.name}`);
+      const snapshot = await uploadBytes(imageRef, imageFile);
+      imageUrl = await getDownloadURL(snapshot.ref);
+    }
+
+    // 🔁 Build payload with imageUrl and Tiptap content
+    const payload = {
+      ...data,
+      image: imageUrl, // replace file with URL
+      createdAt: serverTimestamp(),
+    };
+
+    await addDoc(collection(db, 'blog'), payload);
+
+    alert('Form submitted successfully!');
+  } catch (error) {
+    console.error('Error submitting form:', error);
+    alert('Failed to submit form.');
+  }
     
   }
   return (

@@ -33,9 +33,9 @@ const TipTapEditor = ({ value, onChange }) => {
   return (
     <div>
       <div className="toolbar mb-2">
-        <button onClick={() => editor?.chain().focus().toggleBold().run()} className="btn btn-sm btn-secondary mx-1">B</button>
-        <button onClick={() => editor?.chain().focus().toggleItalic().run()} className="btn btn-sm btn-secondary mx-1">I</button>
-        <button onClick={() => fileInputRef.current?.click()} className="btn btn-sm btn-secondary mx-1">🖼️</button>
+        <button onClick={() => editor?.chain().focus().toggleBold().run()} className="btn btn-sm btn-secondary mx-1">Bold</button>
+        <button onClick={() => editor?.chain().focus().toggleItalic().run()} className="btn btn-sm btn-secondary mx-1">Italics</button>
+        <button onClick={() => fileInputRef.current?.click()} className="btn btn-sm btn-secondary mx-1">🖼️ Add Image</button>
         <input
           type="file"
           ref={fileInputRef}

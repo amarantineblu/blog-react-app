@@ -21,7 +21,7 @@ const AddBlogPage = () => {
   ];
 
   const handleFormSubmit = async (data) => {
-    console.log('Form Submitted:', data);
+    // console.log('Form Submitted:', data);
      try {
     let imageUrl = '';
 

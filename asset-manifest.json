@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-blog-app/static/css/main.157d9a28.css",
+    "main.js": "/react-blog-app/static/js/main.aefee6fa.js",
+    "static/media/icofont.woff": "/react-blog-app/static/media/icofont.dad3accba068281878f1.woff",
+    "static/media/icofont.woff2": "/react-blog-app/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/home-2-hero-bg.jpg": "/react-blog-app/static/media/home-2-hero-bg.f6fc0fc9e16f353696eb.jpg",
+    "static/media/home-3-hero-bg.jpg": "/react-blog-app/static/media/home-3-hero-bg.edd2eb03d399426f8bc7.jpg",
+    "static/media/home-4-hero-bg.jpg": "/react-blog-app/static/media/home-4-hero-bg.e76dd4f05b04863cac54.jpg",
+    "static/media/profile-picture-3.jpg": "/react-blog-app/static/media/profile-picture-3.5d0833eb27581e0f8da6.jpg",
+    "static/media/home-two-newsletter-bg.jpg": "/react-blog-app/static/media/home-two-newsletter-bg.11e75ba684e56298123a.jpg",
+    "static/media/profile-picture-1.jpg": "/react-blog-app/static/media/profile-picture-1.cc357abab06565d1db27.jpg",
+    "static/media/home-three-newsletter-bg.jpg": "/react-blog-app/static/media/home-three-newsletter-bg.33c2fae0bac6759de726.jpg",
+    "static/media/home-four-newsletter-bg.jpg": "/react-blog-app/static/media/home-four-newsletter-bg.68c8a6e7cf8d30bdf9ed.jpg",
+    "static/media/profile-picture-2.jpg": "/react-blog-app/static/media/profile-picture-2.2a7d8e814f22e4a4956f.jpg",
+    "static/media/01.jpg": "/react-blog-app/static/media/01.8a4a50547881350ab6f5.jpg",
+    "static/media/footer-bg-five.jpg": "/react-blog-app/static/media/footer-bg-five.52461d0a38c2d61a0ab5.jpg",
+    "static/media/header-add-banner.jpg": "/react-blog-app/static/media/header-add-banner.6fbd7b6a49b47ba9f571.jpg",
+    "static/media/lgd641.svg?n1z373": "/react-blog-app/static/media/lgd641.cabad2e7aafb3ade3fac.svg",
+    "static/media/lgd41d.eot": "/react-blog-app/static/media/lgd41d.ff5ab4bf2b54710439f8.eot",
+    "static/media/lgd641.eot?n1z373": "/react-blog-app/static/media/lgd641.ff5ab4bf2b54710439f8.eot",
+    "static/media/lgd641.woff?n1z373": "/react-blog-app/static/media/lgd641.0392227eb4b4510402ab.woff",
+    "static/media/lgd641.ttf?n1z373": "/react-blog-app/static/media/lgd641.269f233c78c029ba7cce.ttf",
+    "index.html": "/react-blog-app/index.html",
+    "static/media/loading.html": "/react-blog-app/static/media/loading.6bfea44d27c13eeca3b1.html",
+    "static/media/selector-icon.html": "/react-blog-app/static/media/selector-icon.6bfea44d27c13eeca3b1.html",
+    "static/media/video-play.html": "/react-blog-app/static/media/video-play.6bfea44d27c13eeca3b1.html",
+    "static/media/vimeo-play.html": "/react-blog-app/static/media/vimeo-play.6bfea44d27c13eeca3b1.html",
+    "static/media/youtube-play.html": "/react-blog-app/static/media/youtube-play.6bfea44d27c13eeca3b1.html",
+    "main.157d9a28.css.map": "/react-blog-app/static/css/main.157d9a28.css.map",
+    "main.aefee6fa.js.map": "/react-blog-app/static/js/main.aefee6fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157d9a28.css",
+    "static/js/main.aefee6fa.js"
+  ]
+}

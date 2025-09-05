@@ -10,9 +10,6 @@ import {
 } from 'firebase/auth';
 import DashboardIndexPeripherals from '../../pages/dashboard/dashboard components/DashboardIndexPeripherals';
 
-
-
-
 const DashboardLayout = () => {
 	  const auth = getAuth();
 

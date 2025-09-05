@@ -4,6 +4,7 @@ import Dashboard from '../pages/dashboard/Dashboard';
 import Blogs from '../pages/dashboard/Blogs';
 import AddBlogPage from '../pages/dashboard/AddBlogPage';
 import PrivateRoute from '../PrivateRoute';
+import AllUsersPage from '../pages/dashboard/AllUsersPage';
 
 
 
@@ -13,13 +14,16 @@ console.log("DashboardRoute rendering");
   <Routes>
     <Route element={<PrivateRoute />}>
       <Route element={<DashboardLayout />}>
-        <Route index element={<Dashboard />} />
-        <Route path="blogs" element={<Blogs />} />
+        <Route index element={<Dashboard/>}/>
+        <Route path="blogs" element={<Blogs/>}/>
         <Route path="add-blog-page" element={<AddBlogPage />} />
+        <Route path="all-users-page" element={<AllUsersPage/>}/>
+        {/* <Route path="add-blog-page" element={<AddBlogPage/>}/> */}
+          
 
 
           {/* add more nested routes as needed */}
-          <Route path="test" element={<div>Test Route</div>} />
+          {/* <Route path="test" element={<div>Test Route</div>} /> */}
 
       </Route>
     </Route>

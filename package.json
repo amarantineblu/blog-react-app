@@ -2,6 +2,7 @@
   "name": "blog-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<your-username>.github.io/<repo-name>",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -30,7 +31,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watch --verbose --coverage",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*{js, jsx, ts, tsx}\""
+    "format": "prettier --write \"src/**/*{js, jsx, ts, tsx}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
